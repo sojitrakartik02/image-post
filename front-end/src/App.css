@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Honk&display=swap');
+
+a {
+    color: black !important;
+}
+
+.brand-logo {
+    font-family: 'Honk', system-ui;
+}
+
+.auth-card {
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.login {
+    margin-top: 130px;
+}
+
+.input-field input[type=text][type=password]:focus {
+    border-bottom: 1px solid #110b04 !important;
+    box-shadow: 0 1px 0 0 #1746f2 !important;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    width: 30%;
+    /* margin: 13px 0px */
+}
+
+.home-card {
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+.home-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#toast-container {
+    top: 30px !important;
+    right: 20px !important;
+    left: auto !important;
+}
