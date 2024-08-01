@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import "../App.css";
 import { Link, useNavigate } from "react-router-dom";
 import { UserContext } from "../App";
-import M from "materialize-css"; // Import Materialize JS
+import M from "materialize-css";
 
 const Navbar = () => {
   const { state, dispatch } = useContext(UserContext);
